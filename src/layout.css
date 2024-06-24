@@ -214,15 +214,6 @@ body {
     height: 530px;
     margin-left: 250px;
 }
-
-.tombollayanan{
-    border-radius: 100px;
-    background-color: #0962EA;
-    color: white;
-    padding: 6px 56px 10px 56px;
-    text-decoration: none;
-}
-
 .gambarlayanan{
     position: absolute;
     top: 310px;
@@ -232,17 +223,27 @@ body {
 
 .isilayanan{
     z-index: 1;
-    position: absolute;
-    top: 380px;
-    margin-left: 90px;
+    margin-left: 20px;
 }
 
 .isijadwal{
     z-index: 1;
-    position: relative;
-    top: 30px;
+    margin-right: 530px;
 }
 
+.isigambarlayanan{
+    height: 100px;
+}
+
+.tombolisilayanan{
+    border-radius: 100px;
+    background-color: #0962EA;
+    color: white;
+    padding: 8px 15px 10px 15px;
+    top : 480px;
+    left: 33px;
+    border: none;
+}
 
 
 /* Menghapus garis bawah pada tautan di logo-navbar */
